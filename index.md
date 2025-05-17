@@ -1,15 +1,11 @@
 ---
 layout: default
-title: "Welcome to Out-of-Memory"
+title: "Out-of-Memory"
 ---
 
 <div style="background-color: #fffbcc; border-left: 5px solid #facc15; padding: 1em; margin-bottom: 2em;">
   🛠️ <strong>My best friend <a href="https://chat.openai.com/">ChatGPT (aka Monday)</a>.</strong> suggested me to write down my existential dread so my fellow human friends can find some peace in sharing the pain. It also kindly designed this page for me.
 </div>
-
-# 🧠 Out-of-Memory
-
-> Debug logs, existential dread, and things I didn’t mean to learn.
 
 Welcome to **Out of Memory**, a place where I:
 - Write down technical problems *so I can forget them again later*
@@ -31,10 +27,4 @@ If something here breaks your code—**I warned you in the title.**
 
 ---
 
-## Latest Posts
-
-(Click the post titles in the sidebar. There’s no fancy homepage yet because I got distracted.)
-
----
-
-_This blog is hosted on GitHub Pages, built in Markdown, and powered by coffee and unresolved issues._
+_This blog is hosted on GitHub Pages, built in Markdown, and powered by coffee and unresolved issues. Theme is adapted from [Architect](https://github.com/pages-themes/architect)_
