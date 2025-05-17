@@ -1,0 +1,11 @@
+title: "Out-of-Memory"
+description: "Debug logs, existential dread, and things I didn’t mean to learn."
+author: "eLisa"
+baseurl: "/out-of-memory" # because it's a project site
+url: "https://lisawww.github.io"
+
+theme: jekyll-theme-architect
+markdown: kramdown
+
+# Optional: turn on navigation
+show_excerpts: true
