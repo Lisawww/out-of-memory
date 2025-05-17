@@ -27,4 +27,17 @@ If something here breaks your code—**I warned you in the title.**
 
 ---
 
+## Latest Posts
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <small>({{ post.date | date: "%Y-%m-%d" }})</small>
+    </li>
+  {% endfor %}
+</ul>
+
+---
+
 _This blog is hosted on GitHub Pages, built in Markdown, and powered by coffee and unresolved issues. Theme is adapted from [Architect](https://github.com/pages-themes/architect)_
