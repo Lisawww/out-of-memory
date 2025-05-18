@@ -5,23 +5,21 @@ date: 2025-05-17
 tags: [streamlit, snowflake, internal-tools, debugging, devex]
 ---
 
-At some point I just wanted to debug things faster.
+# How I Accidentally Built an Internal Debugging Platform
 
-So I built a small Streamlit app inside Snowflake (SiS!). 
-Then I added a few more pages.  
-Then I wrote a little script so I wouldn’t have to copy-paste commands every time I wanted to deploy it to Snowflake.  
-And then—without really planning to—I had built a small internal platform.
-
----
-
-## 🛠 The Problem
+At some point I just wanted to debug things faster. Our telemetry data is all in Snowflake and we copy SQL everywhere to check logs, where I got lazy. 
 
 People at work were building custom debug scripts, one-off queries, tiny apps, random dashboards... but they were all floating around in Slack messages and Google Drive folders. Our telemetry data is all in Snowflake, and Streamlit works natively...
 
-I made my wishes:
-- A small app to run locally with zero friction
-- Add new tools without rewriting everything
-- A deploy "button" to Snowflake that looks like a pro
+So I built a small Streamlit app inside Snowflake (SiS!) to avoid copying SQL the 10th time. 
+
+Then I added a few more pages. SiS editor didn't scream but my team member didn't have the courage to touch the giant Python script.
+
+Then I migrate the app to GitHub for version control.
+
+Then I wrote a little script so I wouldn’t have to copy-paste commands every time I wanted to deploy it to Snowflake.  
+
+And then—without really planning to—I had built a small internal platform.
 
 ---
 
