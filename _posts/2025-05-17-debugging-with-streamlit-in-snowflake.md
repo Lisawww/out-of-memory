@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "How I Accidentally Built an Internal Debugging Platform"
 date: 2025-05-17
 tags: [streamlit, snowflake, internal-tools, debugging, devex]
