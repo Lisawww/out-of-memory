@@ -1,7 +1,7 @@
 ## Streamlit & SiS Quick Guide
 
 ### Overview
-The current folder (`./`) is intended to collect all the Streamlit (and Streamlit in Snowflake) apps into Github for easier managing and iterating. The folders can be uploaded and apps deployed into Snowhouse automatically by running `update_sis.py` script (more details below). Manually created app files can be placed under hidden directorys and they will be ignored by the updater script.
+The current folder (`./`) is intended to collect all the Streamlit (and Streamlit in Snowflake) apps into Github for easier managing and iterating. The folders can be uploaded and apps deployed into Snowflake automatically by running `update_sis.py` script (more details below). Manually created app files can be placed under hidden directorys and they will be ignored by the updater script.
 
 ### Create an App
 Refer to https://docs.snowflake.com/en/developer-guide/streamlit/create-streamlit-sql#label-streamlit-create-app-files for creating your app locally. For the purposes of easily uploading and deploying apps please place all app files under `./path-to-app/` and updater script will treat the folder as a whole. Library files can be shared via `lib/` directory or any other directory in the same root location.
@@ -27,7 +27,7 @@ If you're seeing issues importing the libary files, append the `lib/` directory 
 export PYTHONPATH="${PYTHONPATH}:lib/"
 ```
 
-### Uploading and Deploying Apps to Snowhouse
+### Uploading and Deploying Apps to Snowflake
 `update_sis.py` script has the basic upload & deploy functionalities. First make it executable
 ```
 chmod +x update_sis.py
