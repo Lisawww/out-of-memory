@@ -1,0 +1,5 @@
+name: full.qualified.app_name
+main_file: run_app.py
+imports:
+- lib/interactive.py
+warehouse: SOME_WAREHOUSE
