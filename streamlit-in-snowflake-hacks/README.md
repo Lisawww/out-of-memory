@@ -8,6 +8,7 @@ Refer to https://docs.snowflake.com/en/developer-guide/streamlit/create-streamli
 
 ### Running App Locally
 (Not 100% sure if this is necessary but this is what got my stuff working)
+
 Streamlit needs Python virtual environment to be activated in order to run. The workflow looks like:
 ```
 python3 -m venv /tmp/env
