@@ -52,7 +52,7 @@ Everyone else just sees a nice app. But under the hood, it's modular, versionabl
 
 ---
 
-If you’re reading this and thinking "wait, I want one," I’m happy to share more. Or help you build your own.
+If you’re reading this and thinking "wait, I want one," I’m happy to share more. Or help you build your own. I included the updater script with an example app (I don't think it's runnable) at [streamlit-in-snowflake-hacks](https://github.com/Lisawww/out-of-memory/blob/main/streamlit-in-snowflake-hacks), just because I'm feeling good about it.
 
 In the meantime: Streamlit + scripts + chaos = joy.
 
